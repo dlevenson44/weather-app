@@ -1,5 +1,5 @@
 import express from "express"
-import * as locations from "../controllers/location.controller"
+import * as locations from "../controllers/location.controller.js"
 
 export default (app) => {
   const router = express.Router()

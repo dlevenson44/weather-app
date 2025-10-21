@@ -2,8 +2,6 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-console.log('process user: ', process.env.DB_USER)
-
 export default {
   HOST: "localhost",
   USER: process.env.DB_USER,

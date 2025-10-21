@@ -1,6 +1,6 @@
 import Sequelize from "sequelize";
-import dbConfig from "../config/db.config";
-import Location from './location.model'
+import dbConfig from "../config/db.config.js";
+import Location from './location.model.js'
 
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,

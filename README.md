@@ -57,7 +57,7 @@ A full-stack web application that allows users to check the weather by **city na
 ### Prerequisites
 
 * Node.js (v18+)
-* PostgreSQL (v14+)
+* PostgreSQL (v14+)™
 * pnpm
 
 ### Clone the repo

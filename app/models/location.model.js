@@ -1,12 +1,11 @@
 export default (sequelize, Sequelize) => {
-  console.log({ Sequelize })
   const Location = sequelize.define("location", {
     name: {
-      type: Sequalize.STRING,
+      type: Sequelize.STRING,
     },
     zip: {
-      // double check this
-      type: Sequelize.INT,
+      type: Sequelize.STRING,
     }
   })
+  return Location
 }

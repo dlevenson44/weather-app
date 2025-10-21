@@ -1,4 +1,4 @@
-import db from '../models/index'
+import db from '../models/index.js'
 
 const Op = db.Sequelize.Op
 const Location = db.locations
